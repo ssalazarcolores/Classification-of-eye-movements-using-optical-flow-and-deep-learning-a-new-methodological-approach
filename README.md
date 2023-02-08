@@ -14,6 +14,9 @@ Specifically, this proposal is based on domain change. Instead of processing the
 The proposed approach: (a) one-dimensional simple time series containing $x$ and $y$ coordinates of the gaze, (b) result of using dense optical flow techniques, obtaining images of the movement performed by the gaze, (c) the resulting two-dimensional images are used to train a CNN model for classifying the main eye movements: fixations and saccades.
 ![1](https://user-images.githubusercontent.com/42470952/217582881-77d4549a-9bb7-454a-b976-222c91d0f28c.png)
 
+## Dataset 
+The main dataset of this contribution is Gazecom, available in: 
+
 # Requeriments
 - python 3.10
 - tensorflow 2.8.1 
