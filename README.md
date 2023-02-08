@@ -16,7 +16,6 @@ The proposed approach: (a) one-dimensional simple time series containing $x$ and
 
 # Requeriments
 - python 3.10
-- numpy 1.17.5
 - tensorflow 2.8.1 
 - opencv-gpu 4.6.0-dev
 
