@@ -19,6 +19,9 @@ The proposed approach: (a) one-dimensional simple time series containing $x$ and
 - tensorflow 2.8.1 
 - opencv-gpu 4.6.0-dev
 
+# Reference
+The manuscript is currently under revision.
+
 # Contact us
 For more questions, please feel free to contact us:
 - abello15@alumnos.uaq.mx
