@@ -16,3 +16,9 @@ As is well known, the patterns generated in eye movements contain helpful inform
 - numpy 1.17.5
 - tensorflow 2.8.1 
 - opencv-gpu 4.6.0-dev
+
+# Contact us
+For more questions, please feel free to contact us:
+-abello15@alumnos.uaq.mx
+-sebastian.salazar@cio.mx
+-marco.aceves@uaq.mx
