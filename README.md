@@ -19,6 +19,6 @@ As is well known, the patterns generated in eye movements contain helpful inform
 
 # Contact us
 For more questions, please feel free to contact us:
--abello15@alumnos.uaq.mx
--sebastian.salazar@cio.mx
--marco.aceves@uaq.mx
+- abello15@alumnos.uaq.mx
+- sebastian.salazar@cio.mx
+- marco.aceves@uaq.mx
