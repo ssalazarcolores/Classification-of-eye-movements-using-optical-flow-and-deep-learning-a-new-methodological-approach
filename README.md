@@ -18,17 +18,33 @@ The proposed approach: (a) one-dimensional simple time series containing $x$ and
 The main dataset of this contribution is Gazecom, obtained from: https://gin.g-node.org/ioannis.agtzidis/gazecom_annotations. The proposed method was additionally tested on the lund2013 database, obtained from: https://github.com/richardandersson/EyeMovementDetectorEvaluation/tree/master/annotated_data/data%20used%20in%20the%20article
 
 # Results
-The results obtained from the experimentation carried out through 10 trials and a five-fold cross-validation.
-| Fixations | Accuracy |Precision| Recall |F1-score |Kappa |IoU|
-| ------------- | ------------- |
-| 96.61% |95.93% |97.31% |96.63% |0.9319 |93.45% |
+The results obtained from the experimentation carried out through 10 trials and a five-fold cross-validation in GazeCom.
 
+| -  | Accuracy | Precision | Recall | F1-score | Kappa | IoU |
+| ------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Fixations | 96.61%  | 95.93%  | 97.31%  | 96.63%  | 0.9319 | 93.45% |
+| Saccades | 96.53%  | 97.31% |  95.85%  | 96.59%   | 0.9320 |  93.38% |
+
+The results obtained from the experimentation carried out through 10 trials and a five-fold cross-validation in Lund2013.
+| -  | Accuracy | Precision | Recall | F1-score | Kappa | IoU |
+| ------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Fixations | 99.29%   | 99.17% |  99.17%  |  99.26%  |  0.9850 | 98.53% |
+| Saccades | 99.28% | 99.29% |    99.26%  | 99.26% |  0.9851 |  98.56%|
 
 
 # Requeriments
 - python 3.10
 - tensorflow 2.8.1 
 - opencv-gpu 4.6.0-dev
+
+# Transformation
+To transform the information of a dataset to the new domain for training or replicate the experiments, a csv file with the following characteristics is required: *x* and *y* correspond to the coordinates of the gaze position, and *L* corresponds to the label of the executed movement. The csv file should look like:
+| x  | y | L |
+| ------- | -------- | -------- |
+| 450.9	  | 278.1 | 1  | 
+| 450.4	  | 278.4 | 1  | 
+| 449.3	  | 278.7 | 1  |
+| 449.1	  | 278.9	| 1  |
 
 # Reference
 The manuscript is currently under revision.
