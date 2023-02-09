@@ -17,6 +17,14 @@ The proposed approach: (a) one-dimensional simple time series containing $x$ and
 ## Dataset 
 The main dataset of this contribution is Gazecom, obtained from: https://gin.g-node.org/ioannis.agtzidis/gazecom_annotations. The proposed method was additionally tested on the lund2013 database, obtained from: https://github.com/richardandersson/EyeMovementDetectorEvaluation/tree/master/annotated_data/data%20used%20in%20the%20article
 
+# Results
+The results obtained from the experimentation carried out through 10 trials and a five-fold cross-validation.
+| Fixations | Accuracy |Precision| Recall |F1-score |Kappa |IoU|
+| ------------- | ------------- |
+| 96.61% |95.93% |97.31% |96.63% |0.9319 |93.45% |
+
+
+
 # Requeriments
 - python 3.10
 - tensorflow 2.8.1 
