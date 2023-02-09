@@ -15,7 +15,7 @@ The proposed approach: (a) one-dimensional simple time series containing $x$ and
 ![1](https://user-images.githubusercontent.com/42470952/217582881-77d4549a-9bb7-454a-b976-222c91d0f28c.png)
 
 ## Dataset 
-The main dataset of this contribution is Gazecom, available in: 
+The main dataset of this contribution is Gazecom, obtained from: https://gin.g-node.org/ioannis.agtzidis/gazecom_annotations. The proposed method was additionally tested on the lund2013 database, obtained from: https://github.com/richardandersson/EyeMovementDetectorEvaluation/tree/master/annotated_data/data%20used%20in%20the%20article
 
 # Requeriments
 - python 3.10
