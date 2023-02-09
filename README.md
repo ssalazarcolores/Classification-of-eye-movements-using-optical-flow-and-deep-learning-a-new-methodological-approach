@@ -71,6 +71,8 @@ EPOCHS = 45
 SPLITS_KFOLD = 5
 LEARNING_RATE= 5e-3
 ```
+## Metrics
+The *metrics.py* file is used to obtain the metrics mentioned above for the generated model.
 
 # Reference
 The manuscript is currently under revision.
